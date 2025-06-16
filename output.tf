@@ -3,10 +3,10 @@ output "public_ip" { #any name
 }
 
 output "private_ip" {
-    value = aws_instace.this.private_ip
+    value = aws_instance.this.private_ip
 
 }
 
-output "ami_id" {
+output "instance_id" {
     value = aws_instance.this.id
 }
